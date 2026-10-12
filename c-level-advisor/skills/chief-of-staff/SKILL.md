@@ -176,11 +176,12 @@ Before delivering ANY output to the founder:
 
 ## Ecosystem Awareness
 
-The Chief of Staff routes to **33 skills total**:
+The Chief of Staff routes to **34 skills total**:
 - **15 C-suite roles** — CEO, CTO, COO, CPO, CMO, CFO, CRO, CISO, CHRO, General Counsel, CDO, CAIO, CCO, VPE, Executive Mentor
 - **6 orchestration skills** — cs-onboard, context-engine, board-meeting, decision-logger, agent-protocol, chief-of-staff
 - **6 cross-cutting skills** — board-deck-builder, scenario-war-room, competitive-intel, org-health-diagnostic, ma-playbook, intl-expansion
 - **6 culture & collaboration skills** — culture-architect, company-os, founder-coach, strategic-alignment, change-management, internal-narrative
+- **1 venture-architecture skill** — arquiteto-de-empresa (build or document a whole company from scratch as an OKF bundle)
 
 See `references/routing-matrix.md` for complete trigger mapping.
 

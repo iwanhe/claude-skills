@@ -1,6 +1,6 @@
 ---
 name: "c-level-skills"
-description: "Index and router for the C-level advisory bundle: 33 skills covering 14 C-suite roles, orchestration, cross-cutting capabilities, and culture. Use when exploring what the c-level-advisor bundle contains, deciding which advisor skill fits a question, or finding the entry points (cs-onboard interview, chief-of-staff routing, board-meeting protocol)."
+description: "Index and router for the C-level advisory bundle: 34 skills covering 14 C-suite roles, orchestration, cross-cutting capabilities, culture, and venture architecture. Use when exploring what the c-level-advisor bundle contains, deciding which advisor skill fits a question, or finding the entry points (cs-onboard interview, chief-of-staff routing, board-meeting protocol)."
 license: MIT
 metadata:
   version: 2.1.0
@@ -24,7 +24,7 @@ This is the bundle index, not an advisor. It tells you what exists and where to 
 3. **Big decisions** — the `board-meeting` skill runs a **6-phase** deliberation: (1) context gathering → (2) independent contributions (isolated) → (3) critic analysis → (4) synthesis → (5) founder review (full stop) → (6) decision extraction. Invoked via `/cs:boardroom` in the c-level-agents plugin.
 4. **Memory** — decisions land in the canonical two-layer layout `~/.claude/decisions/{raw,approved}/` (see `../agent-protocol/SKILL.md` → "Decision Memory (Canonical Layout)").
 
-## What's in the Bundle (33 skills)
+## What's in the Bundle (34 skills)
 
 **14 C-suite roles + critic (15):** ceo-advisor, cfo-advisor, cto-advisor, coo-advisor, cpo-advisor, cmo-advisor, cro-advisor, ciso-advisor, chro-advisor, general-counsel-advisor, chief-data-officer-advisor, chief-ai-officer-advisor, chief-customer-officer-advisor, vpe-advisor — plus the executive-mentor critic (sibling plugin).
 
@@ -34,7 +34,9 @@ This is the bundle index, not an advisor. It tells you what exists and where to 
 
 **Culture & collaboration (6):** culture-architect, company-os, founder-coach, strategic-alignment, change-management, internal-narrative.
 
-Plus this index (1). 37 stdlib-only Python tools and 68 reference docs across the bundle.
+**Venture architecture (1):** arquiteto-de-empresa — builds a company from scratch as an OKF knowledge bundle (12-phase founder interview → linked `.md` files).
+
+Plus this index (1). 40 stdlib-only Python tools and 71 reference docs across the bundle.
 
 ## Routing Quick Reference
 
