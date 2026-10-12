@@ -1,6 +1,6 @@
 # C-Level Advisory Skills — Claude Code Guidance
 
-A complete virtual board of directors: 28 skills covering 10 executive roles, orchestration, cross-cutting capabilities, and culture & collaboration frameworks — plus the new **c-level-agents** plugin layer that surfaces 8 cs-* persona agents and 17 `/cs:*` slash commands on top of the skills.
+A complete virtual board of directors: 34 skills covering 14 executive roles, orchestration, cross-cutting capabilities, culture & collaboration frameworks, and venture architecture — plus the **c-level-agents** plugin layer that surfaces 13 cs-* persona agents and 21 `/cs:*` slash commands on top of the skills.
 
 ## Architecture
 
@@ -73,6 +73,12 @@ A complete virtual board of directors: 28 skills covering 10 executive roles, or
 | **Strategic Alignment** | `strategic-alignment/` | Strategy cascade, silo detection |
 | **Change Management** | `change-management/` | ADKAR-based change rollout |
 | **Internal Narrative** | `internal-narrative/` | One story across all audiences |
+
+### Venture Architecture (1)
+
+| Skill | Folder | Purpose |
+|-------|--------|---------|
+| **Company Architect** | `arquiteto-de-empresa/` | 12-phase founder interview → company documented as an OKF bundle (linked `.md` files); also dual-published as a standalone plugin |
 
 ## c-level-agents Plugin (v1.0.0 — new in v2.5.0)
 
@@ -154,8 +160,8 @@ python decision-logger/scripts/decision_tracker.py
 
 ---
 
-**Last Updated:** 2026-05-13
-**Skills Deployed:** 33 skills (15 roles incl. General Counsel, CDO, CAIO, CCO, and VPE + 5 mentor commands + 6 orchestration + 6 cross-cutting + 6 culture) + 21 /cs:* sub-skills in c-level-agents plugin
+**Last Updated:** 2026-10-12
+**Skills Deployed:** 34 skills (15 roles incl. General Counsel, CDO, CAIO, CCO, and VPE + 5 mentor commands + 6 orchestration + 6 cross-cutting + 6 culture + 1 venture architecture) + 21 /cs:* sub-skills in c-level-agents plugin
 **Agents:** 15 cs-* (cs-ceo, cs-cto in /agents/c-level/; 13 in ../c-level-agents/agents/ including new cs-vpe-advisor)
-**Python Tools:** 39 (stdlib-only) — +3 with vpe-advisor (delivery_throughput_analyzer, eng_hiring_funnel_calculator, eng_team_structure_designer)
-**Reference Docs:** 73 (71 in skills + 2 in c-level-agents/references)
+**Python Tools:** 42 (stdlib-only; 40 in skills/ + 2 in executive-mentor) — +3 with arquiteto-de-empresa (scaffold_bundle, okf_linter, index_generator)
+**Reference Docs:** 76 (71 in skills/ + 3 in executive-mentor + 2 in c-level-agents/references)
